@@ -20,7 +20,7 @@ const HeroScreen = () => {
 	return (
 		<div className='flex justify-center'>
 			<div className='w-1/4 max-h-full border rounded shadow p-2 animate__animated animate__backInLeft'>
-				<img src={`/img/${id}.jpg`} alt={superhero} />
+				<img src={`./img/${id}.jpg`} alt={superhero} />
 			</div>
 
 			<div className='w-3-4 p-8 animate__animated animate__backInRight'>

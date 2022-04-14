@@ -5,7 +5,7 @@ const HeroCard = ({ id, superhero, alter_ego, characters }) => {
 		<div className='flex shadow-md shadow-slate-500 rounded-md overflow-hidden animate__animated animate__fadeIn'>
 			<div className='w-1/3'>
 				<img
-					src={`/img/${id}.jpg`}
+					src={`./img/${id}.jpg`}
 					alt={superhero}
 					className='h-full object-cover'
 				/>
